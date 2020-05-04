@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+body {
+    font-family: Calibri;
+    background-color: #F7FBFC;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    color: #217B81;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#editor-div{
+    width: 45vw;
+    margin: 10px;
+}
+
+#editor{
+    background-color: #F7F5E9;
+    resize: vertical;
+    width: 98.5%;
+    height: 300px;
+    margin: auto;
+}
+
+#preview-div{
+    width: 45vw;
+    margin: 10px;
+}
+
+#preview {
+    border: 1px solid black;
+    background-color: #EAF3F2;
+    width: 99%;
+    margin: auto;
+}
+
+.editor-previewer {
+    border: 1px solid black;
+    margin: 2px;
+    margin-bottom: 0;
+    color: white;
+}
+
+#editor-title {
+    background-color: #D5B308;
+}
+
+#previewer-title {
+    background-color: #5F8C72;
+}
